@@ -1,0 +1,13 @@
+model,dataset,class,precision,recall,f1_score,support
+Random Forest,UNSW-NB15 (multiclass),Analysis,0.3476,0.2575,0.2958,536
+Random Forest,UNSW-NB15 (multiclass),Backdoor,0.1937,0.1588,0.1745,466
+Random Forest,UNSW-NB15 (multiclass),DoS,0.4715,0.7705,0.585,2000
+Random Forest,UNSW-NB15 (multiclass),Exploits,0.7454,0.5035,0.601,2000
+Random Forest,UNSW-NB15 (multiclass),Fuzzers,0.7536,0.803,0.7775,2000
+Random Forest,UNSW-NB15 (multiclass),Generic,1.0,0.98,0.9899,2000
+Random Forest,UNSW-NB15 (multiclass),Normal,0.9651,0.7475,0.8425,2000
+Random Forest,UNSW-NB15 (multiclass),Reconnaissance,0.9235,0.8205,0.8689,2000
+Random Forest,UNSW-NB15 (multiclass),Shellcode,0.6018,0.9007,0.7215,302
+Random Forest,UNSW-NB15 (multiclass),Worms,0.3472,0.7143,0.4673,35
+Random Forest,UNSW-NB15 (multiclass),macro avg,0.6349,0.6656,0.6324,13339
+Random Forest,UNSW-NB15 (multiclass),weighted avg,0.7638,0.7316,0.735,13339

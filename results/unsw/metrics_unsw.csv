@@ -1,0 +1,4 @@
+model,dataset,accuracy,precision_macro,recall_macro,f1_macro,f1_weighted
+Random Forest,UNSW-NB15 (multiclass),0.7316,0.6349,0.6656,0.6324,0.735
+XGBoost,UNSW-NB15 (multiclass),0.7375,0.6664,0.6823,0.6584,0.7395
+Soft Voting Hybrid,UNSW-NB15 (multiclass),0.7366,0.656,0.6789,0.6509,0.7392

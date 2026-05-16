@@ -1,0 +1,15 @@
+venv/
+data/
+models/
+saved_models/
+__pycache__/
+utils/__pycache__/
+scripts/New folder/
+
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.xlsx
+*.zip
+.env

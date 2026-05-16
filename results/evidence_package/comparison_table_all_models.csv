@@ -1,0 +1,7 @@
+model,dataset,accuracy,precision_macro,recall_macro,f1_macro,f1_weighted
+Random Forest,CICIDS2018,0.9947,0.914,0.9421,0.9259,0.9949
+XGBoost,CICIDS2018,0.9962,0.9454,0.9371,0.9411,0.9962
+Soft Voting Hybrid,CICIDS2018,0.9962,0.9454,0.9371,0.9411,0.9962
+Random Forest,UNSW-NB15,0.7316,0.6349,0.6656,0.6324,0.735
+XGBoost,UNSW-NB15,0.7375,0.6664,0.6823,0.6584,0.7395
+Soft Voting Hybrid,UNSW-NB15,0.7366,0.656,0.6789,0.6509,0.7392

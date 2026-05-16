@@ -1,0 +1,11 @@
+model,metric,mean,std
+Random Forest,accuracy,0.9962,0.0021
+Random Forest,f1_macro,0.9319,0.0314
+Random Forest,f1_weighted,0.996,0.0022
+Random Forest,precision,0.9561,0.0247
+Random Forest,recall,0.9166,0.0356
+XGBoost,accuracy,0.9969,0.0015
+XGBoost,f1_macro,0.9376,0.0261
+XGBoost,f1_weighted,0.9967,0.0016
+XGBoost,precision,0.9621,0.0232
+XGBoost,recall,0.9212,0.0277

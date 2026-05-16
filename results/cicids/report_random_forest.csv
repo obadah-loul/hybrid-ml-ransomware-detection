@@ -1,0 +1,8 @@
+model,dataset,class,precision,recall,f1_score,support
+Random Forest,CICIDS2018,Bot,0.999,0.999,0.999,1000
+Random Forest,CICIDS2018,Brute Force,0.9632,0.9345,0.9486,168
+Random Forest,CICIDS2018,DDoS,1.0,0.999,0.9995,1000
+Random Forest,CICIDS2018,DoS,0.999,1.0,0.9995,1000
+Random Forest,CICIDS2018,SQL Injection,0.6087,0.7778,0.6829,18
+Random Forest,CICIDS2018,macro avg,0.914,0.9421,0.9259,3186
+Random Forest,CICIDS2018,weighted avg,0.9952,0.9947,0.9949,3186

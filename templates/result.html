@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Detection Results</title>
+<style>
+body{
+font-family:Arial;
+background:#f4f6f9;
+text-align:center;
+padding-top:80px;
+}
+.card{
+background:white;
+width:500px;
+margin:auto;
+padding:40px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+.result{
+font-size:22px;
+margin:15px;
+}
+a{
+text-decoration:none;
+color:#007bff;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Detection Results</h1>
+
+{% for key, value in counts.items() %}
+<div class="result">{{ key }} : {{ value }} samples</div>
+{% endfor %}
+
+<br>
+<a href="/">Analyze Another File</a>
+</div>
+</body>
+</html>

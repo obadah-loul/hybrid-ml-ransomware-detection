@@ -1,0 +1,13 @@
+model,dataset,class,precision,recall,f1_score,support
+XGBoost,UNSW-NB15 (multiclass),Analysis,0.3827,0.2556,0.3065,536
+XGBoost,UNSW-NB15 (multiclass),Backdoor,0.2393,0.1803,0.2056,466
+XGBoost,UNSW-NB15 (multiclass),DoS,0.4712,0.803,0.5939,2000
+XGBoost,UNSW-NB15 (multiclass),Exploits,0.7675,0.4985,0.6044,2000
+XGBoost,UNSW-NB15 (multiclass),Fuzzers,0.7578,0.8025,0.7795,2000
+XGBoost,UNSW-NB15 (multiclass),Generic,0.9949,0.981,0.9879,2000
+XGBoost,UNSW-NB15 (multiclass),Normal,0.9509,0.7545,0.8414,2000
+XGBoost,UNSW-NB15 (multiclass),Reconnaissance,0.9338,0.8185,0.8724,2000
+XGBoost,UNSW-NB15 (multiclass),Shellcode,0.6182,0.9007,0.7332,302
+XGBoost,UNSW-NB15 (multiclass),Worms,0.5472,0.8286,0.6591,35
+XGBoost,UNSW-NB15 (multiclass),macro avg,0.6664,0.6823,0.6584,13339
+XGBoost,UNSW-NB15 (multiclass),weighted avg,0.7703,0.7375,0.7395,13339

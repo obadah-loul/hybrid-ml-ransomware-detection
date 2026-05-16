@@ -1,0 +1,47 @@
+======================================================================
+EVIDENCE PACKAGE SUMMARY
+Paper: A Hybrid Machine Learning Approach for Ransomware Detection
+       in Enterprise Networks
+======================================================================
+
+DATASETS: CICIDS2018 (enterprise attack families) + UNSW-NB15 (network intrusion)
+MODELS:   Random Forest | XGBoost | Soft Voting Hybrid (RF + XGBoost)
+SPLIT:    80% train / 20% test | random_state=42 | stratified
+BALANCE:  SMOTE applied to training set only (no leakage)
+
+----------------------------------------------------------------------
+FULL RESULTS TABLE
+----------------------------------------------------------------------
+             model    dataset  accuracy  precision_macro  recall_macro  f1_macro  f1_weighted
+     Random Forest CICIDS2018    0.9947           0.9140        0.9421    0.9259       0.9949
+           XGBoost CICIDS2018    0.9962           0.9454        0.9371    0.9411       0.9962
+Soft Voting Hybrid CICIDS2018    0.9962           0.9454        0.9371    0.9411       0.9962
+     Random Forest  UNSW-NB15    0.7316           0.6349        0.6656    0.6324       0.7350
+           XGBoost  UNSW-NB15    0.7375           0.6664        0.6823    0.6584       0.7395
+Soft Voting Hybrid  UNSW-NB15    0.7366           0.6560        0.6789    0.6509       0.7392
+
+----------------------------------------------------------------------
+BEST MODEL OVERALL
+----------------------------------------------------------------------
+  Model:           XGBoost
+  Dataset:         CICIDS2018
+  accuracy            : 0.9962
+  precision_macro     : 0.9454
+  recall_macro        : 0.9371
+  f1_macro            : 0.9411
+  f1_weighted         : 0.9962
+
+----------------------------------------------------------------------
+HYBRID ADVANTAGE (Soft Voting vs best individual model)
+----------------------------------------------------------------------
+  CICIDS2018:
+    Hybrid F1 (macro): 0.9411
+    Best baseline F1:  0.9411
+    Improvement:       +0.0000
+
+  UNSW-NB15:
+    Hybrid F1 (macro): 0.6509
+    Best baseline F1:  0.6584
+    Improvement:       -0.0075
+
+======================================================================

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hybrid Ransomware Detection</title>
+<style>
+body{
+font-family:Arial;
+background:#f4f6f9;
+text-align:center;
+padding-top:80px;
+}
+.card{
+background:white;
+width:500px;
+margin:auto;
+padding:40px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+button{
+background:#007bff;
+color:white;
+border:none;
+padding:12px 22px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+button:hover{
+background:#0056b3;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Hybrid Ransomware Detection System</h1>
+<p>Upload a network traffic CSV file for threat analysis</p>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+<input type="file" name="file" required><br><br>
+<button type="submit">Analyze File</button>
+</form>
+</div>
+</body>
+</html>

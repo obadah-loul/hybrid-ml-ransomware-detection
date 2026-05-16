@@ -1,0 +1,4 @@
+model,dataset,accuracy,precision_macro,recall_macro,f1_macro,f1_weighted
+Random Forest,CICIDS2018,0.9947,0.914,0.9421,0.9259,0.9949
+XGBoost,CICIDS2018,0.9962,0.9454,0.9371,0.9411,0.9962
+Soft Voting Hybrid,CICIDS2018,0.9962,0.9454,0.9371,0.9411,0.9962
